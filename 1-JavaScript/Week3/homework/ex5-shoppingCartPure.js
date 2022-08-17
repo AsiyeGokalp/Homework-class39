@@ -15,16 +15,8 @@ it pure. Do the following:
    spread syntax.
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
-function addToShoppingCart(item, ...shoppingCart) {
-  if (item === undefined) {
-    shoppingCart;
-  } else if (shoppingCart.length > 2) {
-    shoppingCart.push(item);
-    shoppingCart.shift();
-  } else {
-    shoppingCart.push(item);
-  }
-  return shoppingCart;
+function addToShoppingCart(shoppingCart, item) {
+  return [...shoppingCart, item].slice(-3);
 }
 
 // ! Test functions (plain vanilla JavaScript)

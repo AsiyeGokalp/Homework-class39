@@ -53,3 +53,181 @@ ex3-tellFortune.js
 2022-08-09 09:45:46 info: -------------------------------------------
 2022-08-09 09:45:46 warn: A unit test file was not provided.
 2022-08-09 09:45:48 info: All steps were completed successfully
+2022-08-16 10:59:29 info: -------------------------------------------
+2022-08-16 10:59:29 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 10:59:29 info: -------------------------------------------
+2022-08-16 10:59:32 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 10:59:34 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:01:48 info: -------------------------------------------
+2022-08-16 11:01:48 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 11:01:48 info: -------------------------------------------
+2022-08-16 11:01:50 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 11:01:52 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:14:13 info: -------------------------------------------
+2022-08-16 11:14:13 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 11:14:13 info: -------------------------------------------
+2022-08-16 11:14:15 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 11:14:17 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:15:46 info: -------------------------------------------
+2022-08-16 11:15:46 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 11:15:46 info: -------------------------------------------
+2022-08-16 11:15:48 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 11:15:51 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:22:39 info: -------------------------------------------
+2022-08-16 11:22:39 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 11:22:39 info: -------------------------------------------
+2022-08-16 11:22:40 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 11:22:42 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:23:34 info: -------------------------------------------
+2022-08-16 11:23:34 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-16 11:23:34 info: -------------------------------------------
+2022-08-16 11:23:35 error: *** Unit Test Error Report ***
+
+✕ tellFortune should exist and be executable
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune `tellFortune` should not contain unneeded console.log calls
+✕ tellFortune should take four parameters
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\gokal\Desktop\Homework-class39\test-runner\CustomReporter.js"
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-16 11:23:37 error: *** Spell Checker Report ***
+
+
+2022-08-16 11:52:15 info: ------------------------------------------------
+2022-08-16 11:52:15 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2022-08-16 11:52:15 info: ------------------------------------------------
+2022-08-16 11:52:15 warn: A unit test file was not provided.
+2022-08-16 11:52:17 error: *** Spell Checker Report ***
+
+
+2022-08-17 12:38:17 info: -----------------------------------------
+2022-08-17 12:38:17 info: >>> Running Unit Test `ex6-totalCost` <<<
+2022-08-17 12:38:17 info: -----------------------------------------
+2022-08-17 12:38:17 warn: A unit test file was not provided.
+2022-08-17 12:38:21 error: *** Spell Checker Report ***
+
+
+2022-08-17 02:23:59 info: -------------------------------------------
+2022-08-17 02:23:59 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2022-08-17 02:23:59 info: -------------------------------------------
+2022-08-17 02:23:59 warn: A unit test file was not provided.
+2022-08-17 02:24:01 error: *** Spell Checker Report ***
+
+
+2022-08-17 02:25:22 info: -------------------------------------------
+2022-08-17 02:25:22 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2022-08-17 02:25:22 info: -------------------------------------------
+2022-08-17 02:25:22 warn: A unit test file was not provided.
+2022-08-17 02:25:24 error: *** Spell Checker Report ***
+
+

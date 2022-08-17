@@ -1,31 +1,13 @@
-function selectRandomly(numKids, partnerNames, locations, jobTitles) {
-  return (
-    numKids[Math.floor(Math.random() * numKids.length)] +
-    ' ' +
-    partnerNames[Math.floor(Math.random() * partnerNames.length)] +
-    ' ' +
-    locations[Math.floor(Math.random() * locations.length)] +
-    ' ' +
-    jobTitles[Math.floor(Math.random() * jobTitles.length)]
-  );
+function selectRandomly(array) {
+  return array[Math.floor(Math.random() * array.length)];
 }
 
-function tellFortune(numKids, partnerNames, locations, jobTitles) {
-  return (
-    'You will be a ' +
-    jobTitles[Math.floor(Math.random() * jobTitles.length)] +
-    ' in ' +
-    locations[Math.floor(Math.random() * locations.length)] +
-    ', married to ' +
-    partnerNames[Math.floor(Math.random() * partnerNames.length)] +
-    ' with ' +
-    numKids[Math.floor(Math.random() * numKids.length)] +
-    ' kids.'
-  );
+function tellFortune(kids, partner, loc, job) {
+  return `You will be a ${selectRandomly(job)} in ${selectRandomly(loc)},
+   married to ${selectRandomly(partner)} with ${selectRandomly(kids)} kids.`;
 }
-
 function main() {
-  const numKids = [0, 1, 2, 3, 4];
+  const numKids = [1, 2, 3, 4, 5];
 
   const partnerNames = ['Tony', 'Adam', 'Mike', 'David', 'Rob'];
 

@@ -1,4 +1,7 @@
 'use strict';
+
+const { e } = require('html-validate/dist/cjs/core');
+
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week3#exercise-6-total-cost-is
 
@@ -21,31 +24,35 @@ instead!
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  iceTea: 3,
-  chips: 4,
-  cookie: 7,
-  fruit: 5,
-  cake: 6,
+  iceTea: 3.22,
+  chips: 4.38,
+  cookie: 7.33,
+  fruit: 5.99,
+  cake: 6.23,
 };
 
-function calculateTotalPrice(amount) {
+function calculateTotalPrice(cart) {
   amount = 0;
-  // eslint-disable-next-line no-restricted-syntax
-  for (const x in cartForParty) {
-    amount += cartForParty[x];
-  }
-  return `Total: €${amount}`;
+
+  Object.values(cart).reduce((acc, num) => (amount += acc + num), 0);
+  return `Total: €${amount.toFixed(2)}`;
 }
+
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
+
   // TODO replace this comment with your code
-  calculateTotalPrice();
+  const expected = 1;
+  const actual = calculateTotalPrice.length;
+  console.assert(expected === actual);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
   // TODO replace this comment with your code
-  calculateTotalPrice();
+  const expected = 'Total: €134.09';
+  const actual = calculateTotalPrice(cartForParty);
+  console.assert(expected === actual);
 }
 
 function test() {

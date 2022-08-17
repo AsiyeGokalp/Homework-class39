@@ -30,14 +30,13 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(newArray) {
+function filterPrivateData(arrayEmployee) {
   // TODO complete this function
-  newArray = employeeRecords.map((employeeRecords) => ({
-    name: employeeRecords.name,
-    occupation: employeeRecords.occupation,
-    email: employeeRecords.email,
-  }));
-  return `${newArray}`;
+
+  return arrayEmployee.map((employee) => {
+    const { name, occupation, email } = employee;
+    return { name, occupation, email };
+  });
 }
 
 // ! Test functions (plain vanilla JavaScript)
