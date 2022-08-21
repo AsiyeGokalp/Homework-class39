@@ -1,7 +1,3 @@
-'use strict';
-
-const { e } = require('html-validate/dist/cjs/core');
-
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week3#exercise-6-total-cost-is
 
