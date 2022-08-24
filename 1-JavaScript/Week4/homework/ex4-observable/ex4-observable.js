@@ -21,7 +21,7 @@ function createObservable() {
       subscribers.push(subscriber);
     },
     notify: function (message) {
-      subscribers.reduce((acc, subscriber) => acc + subscriber(message), []);
+      subscribers.forEach((subscriber) => subscriber(message));
     },
   };
 }

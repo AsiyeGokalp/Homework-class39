@@ -95,7 +95,7 @@ const quiz = {
       b: 'Step out of current function', 
       c: 'Step' 
     },
-    answer: i didnt understand,
+    answer: a,
   },
   q4: {
     question: 'What is displayed in the console?',
@@ -104,7 +104,7 @@ const quiz = {
       b: 'Transferring € 50,00 from Jack to undefined', 
       c: 'Transferring € 50,00 from Jack to Jane' 
     },
-    answer: b,
+    answer: a,
   },
   q5: {
     question: 'The owner of the wallet with insufficient funds is:',

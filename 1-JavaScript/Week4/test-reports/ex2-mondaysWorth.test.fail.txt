@@ -1,0 +1,32 @@
+*** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (1 ms)
+    × should compute the earnings as a formatted Euro amount
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    TypeError: amount.toFixed is not a function
+
+      36 |     .map((task) => task.duration / 60)
+      37 |     .map((item) => item * rate);
+    > 38 |   return `€${amount.toFixed(2)}`;
+         |                     ^
+      39 | }
+      40 |
+      41 | // ! Unit tests (using Jest)
+
+      at computeEarnings (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:38:21)
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:50:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.379 s, estimated 1 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
