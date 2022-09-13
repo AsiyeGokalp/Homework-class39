@@ -405,3 +405,2386 @@ Ran all test suites matching /ex5-catWalk.test.js/i.
 2022-08-24 05:16:36 info: ---------------------------------------
 2022-08-24 05:16:40 info: All unit tests passed.
 2022-08-24 05:16:43 info: All steps were completed successfully
+2022-09-09 10:37:17 info: ---------------------------------------
+2022-09-09 10:37:17 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-09 10:37:17 info: ---------------------------------------
+2022-09-09 10:37:19 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (1 ms)
+    × should have all TODO comments removed (1 ms)
+    √ `getAnonName` should not contain unneeded console.log calls (1 ms)
+    √ should call `new Promise()`
+    √ should take a single argument
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1 ms)
+    × should reject with an Error object when called without an argument
+
+  ● getAnonName › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+  ● getAnonName › should reject with an Error object when called without an argument
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+
+    Received value has no prototype
+    Received value: "You didn't pass in a first name!"
+
+      90 |     timeoutSpy.mockRestore();
+      91 |     expect(promise).toBeInstanceOf(Promise);
+    > 92 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      93 |   });
+      94 | });
+      95 |
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:92:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 7 passed, 9 total
+Snapshots:   0 total
+Time:        0.517 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+2022-09-09 10:42:00 info: ---------------------------------------
+2022-09-09 10:42:00 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-09 10:42:00 info: ---------------------------------------
+2022-09-09 10:42:01 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `getAnonName` should not contain unneeded console.log calls
+    √ should call `new Promise()`
+    √ should take a single argument
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1 ms)
+    × should reject with an Error object when called without an argument (2 ms)
+
+  ● getAnonName › should reject with an Error object when called without an argument
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+
+    Received value has no prototype
+    Received value: "You didn't pass in a first name!"
+
+      90 |     timeoutSpy.mockRestore();
+      91 |     expect(promise).toBeInstanceOf(Promise);
+    > 92 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      93 |   });
+      94 | });
+      95 |
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:92:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 8 passed, 9 total
+Snapshots:   0 total
+Time:        0.382 s, estimated 1 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+2022-09-09 10:48:02 info: ---------------------------------------
+2022-09-09 10:48:02 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-09 10:48:02 info: ---------------------------------------
+2022-09-09 10:48:04 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (1 ms)
+    × should have all TODO comments removed (1 ms)
+    √ `getAnonName` should not contain unneeded console.log calls (1 ms)
+    √ should call `new Promise()`
+    √ should take a single argument
+    √ `resolve()` should be called with a one argument (1 ms)
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (1 ms)
+    × should reject with an Error object when called without an argument (1 ms)
+
+  ● getAnonName › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+  ● getAnonName › should reject with an Error object when called without an argument
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+    Received constructor: Function
+
+      90 |     timeoutSpy.mockRestore();
+      91 |     expect(promise).toBeInstanceOf(Promise);
+    > 92 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      93 |   });
+      94 | });
+      95 |
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:92:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 7 passed, 9 total
+Snapshots:   0 total
+Time:        0.385 s, estimated 1 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+2022-09-09 10:48:18 info: ---------------------------------------
+2022-09-09 10:48:18 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-09 10:48:18 info: ---------------------------------------
+2022-09-09 10:48:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js
+  getAnonName
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    √ `getAnonName` should not contain unneeded console.log calls (1 ms)
+    √ should call `new Promise()`
+    √ should take a single argument (1 ms)
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should resolve when called with a string argument (2 ms)
+    × should reject with an Error object when called without an argument (1 ms)
+
+  ● getAnonName › should reject with an Error object when called without an argument
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+    Received constructor: Function
+
+      90 |     timeoutSpy.mockRestore();
+      91 |     expect(promise).toBeInstanceOf(Promise);
+    > 92 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      93 |   });
+      94 | });
+      95 |
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex1-johnWho.test.js:92:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 8 passed, 9 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /ex1-johnWho.test.js/i.
+2022-09-09 10:51:56 info: ---------------------------------------
+2022-09-09 10:51:56 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-09 10:51:56 info: ---------------------------------------
+2022-09-09 10:51:57 info: All unit tests passed.
+2022-09-09 10:52:00 info: All steps were completed successfully
+2022-09-10 06:56:00 info: -------------------------------------------------
+2022-09-10 06:56:00 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2022-09-10 06:56:00 info: -------------------------------------------------
+2022-09-10 06:56:02 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-checkDoubleDigits.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex2-checkDoubleDigits.test.js
+  checkDoubleDigits
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    √ `checkDoubleDigits` should not contain unneeded console.log calls
+    √ should call new Promise()
+    √ `resolve()` should be called with a one argument
+    √ `reject()` should be called with a one argument
+    √ should be a function that takes a single argument
+    × (9) should return a rejected promise with an Error object (2 ms)
+    √ (10) should return a promise that resolves to "This is a double digit number!" (3 ms)
+    √ (99) should return a promise that resolves to "This is a double digit number!" (1 ms)
+    × (100) should return a rejected promise with an Error object
+
+  ● checkDoubleDigits › (9) should return a rejected promise with an Error object
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+
+    Received value has no prototype
+    Received value: "Expected a double digit number but got 9"
+
+      65 |     const promise = checkDoubleDigits(9);
+      66 |     expect(promise).toBeInstanceOf(Promise);
+    > 67 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      68 |   });
+      69 |
+      70 |   test('(10) should return a promise that resolves to "This is a double digit number!"', () => {
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex2-checkDoubleDigits.test.js:67:36)
+
+  ● checkDoubleDigits › (100) should return a rejected promise with an Error object
+
+    expect(received).rejects.toBeInstanceOf(expected)
+
+    Expected constructor: Error
+
+    Received value has no prototype
+    Received value: "Expected a double digit number but got 100"
+
+      91 |     const promise = checkDoubleDigits(100);
+      92 |     expect(promise).toBeInstanceOf(Promise);
+    > 93 |     return expect(promise).rejects.toBeInstanceOf(Error);
+         |                                    ^
+      94 |   });
+      95 | });
+      96 |
+
+      at Object.toBeInstanceOf (node_modules/expect/build/index.js:285:22)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex2-checkDoubleDigits.test.js:93:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 9 passed, 11 total
+Snapshots:   0 total
+Time:        0.515 s
+Ran all test suites matching /ex2-checkDoubleDigits.test.js/i.
+2022-09-10 06:58:54 info: -------------------------------------------------
+2022-09-10 06:58:54 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2022-09-10 06:58:54 info: -------------------------------------------------
+2022-09-10 06:58:56 info: All unit tests passed.
+2022-09-10 06:58:59 info: All steps were completed successfully
+2022-09-12 11:19:51 info: ---------------------------------------
+2022-09-12 11:19:51 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:19:51 info: ---------------------------------------
+2022-09-12 11:19:53 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.549 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:19:55 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:23:35 info: ---------------------------------------
+2022-09-12 11:23:35 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:23:35 info: ---------------------------------------
+2022-09-12 11:23:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed (1 ms)
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:23:39 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:27:25 info: ---------------------------------------
+2022-09-12 11:27:25 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:27:25 info: ---------------------------------------
+2022-09-12 11:27:27 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:27:29 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:28:37 info: ---------------------------------------
+2022-09-12 11:28:37 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:28:37 info: ---------------------------------------
+2022-09-12 11:28:39 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.331 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:28:41 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:39:07 info: ---------------------------------------
+2022-09-12 11:39:07 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:39:07 info: ---------------------------------------
+2022-09-12 11:39:08 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.334 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:39:10 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:48:50 info: ---------------------------------------
+2022-09-12 11:48:50 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:48:50 info: ---------------------------------------
+2022-09-12 11:48:52 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.325 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:48:54 error: *** Spell Checker Report ***
+
+
+2022-09-12 11:50:47 info: ---------------------------------------
+2022-09-12 11:50:47 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-09-12 11:50:47 info: ---------------------------------------
+2022-09-12 11:50:49 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDie.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js
+  rollDie
+    × should exist and be executable
+    × should have all TODO comments removed
+    × should call `new Promise()`
+    × `resolve()` should be called with a one argument
+    × `reject()` should be called with a one argument
+    × should resolve when the die settles successfully
+    × should reject with an Error when the die rolls off the table
+
+  ● rollDie › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should call `new Promise()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `resolve()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › `reject()` should be called with a one argument
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should resolve when the die settles successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+  ● rollDie › should reject with an Error when the die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\it\ex3-rollDie.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex3-rollDie.test.js:13:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.32 s, estimated 1 s
+Ran all test suites matching /ex3-rollDie.test.js/i.
+2022-09-12 11:50:51 error: *** Spell Checker Report ***
+
+
+2022-09-13 07:42:58 info: --------------------------------------------
+2022-09-13 07:42:58 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 07:42:58 info: --------------------------------------------
+2022-09-13 07:43:01 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    × should exist and be executable
+    × should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls
+    × should use `dice.map()`
+    × should use `Promise.all()`
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `dice.map()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `Promise.all()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.527 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+2022-09-13 07:43:03 error: *** Spell Checker Report ***
+
+
+2022-09-13 07:47:09 info: --------------------------------------------
+2022-09-13 07:47:09 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 07:47:09 info: --------------------------------------------
+2022-09-13 07:47:11 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    × should exist and be executable
+    × should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls (1 ms)
+    × should use `dice.map()`
+    × should use `Promise.all()`
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `dice.map()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `Promise.all()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.427 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+2022-09-13 07:47:13 error: *** Spell Checker Report ***
+
+
+2022-09-13 08:00:48 info: --------------------------------------------
+2022-09-13 08:00:48 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 08:00:48 info: --------------------------------------------
+2022-09-13 08:00:51 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    × should exist and be executable
+    × should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls
+    × should use `dice.map()`
+    × should use `Promise.all()`
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `dice.map()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `Promise.all()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.602 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+2022-09-13 08:00:53 error: *** Spell Checker Report ***
+
+
+2022-09-13 08:02:41 info: --------------------------------------------
+2022-09-13 08:02:41 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 08:02:41 info: --------------------------------------------
+2022-09-13 08:02:43 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    × should exist and be executable
+    × should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls
+    × should use `dice.map()`
+    × should use `Promise.all()`
+    × should resolve when all dice settle successfully
+    × should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should exist and be executable
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › `rollDice` should not contain unneeded console.log calls
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `dice.map()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should use `Promise.all()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+  ● ex4-pokerDiceAll › should reject with an Error when a die rolls off the table
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\run\ex4-pokerDiceAll.js'
+
+      42 |   }
+      43 |
+    > 44 |   result.source = fs.readFileSync(exercisePath, 'utf8');
+         |                      ^
+      45 |
+      46 |   if (options.parse) {
+      47 |     try {
+
+      at beforeAllHelper (test-runner/unit-test-helpers.js:44:22)
+      at 3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:14:39
+
+Test Suites: 1 failed, 1 total
+Tests:       7 failed, 7 total
+Snapshots:   0 total
+Time:        0.386 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+2022-09-13 08:02:45 error: *** Spell Checker Report ***
+
+
+2022-09-13 08:18:23 info: ------------------------------------------------------
+2022-09-13 08:18:23 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-09-13 08:18:23 info: ------------------------------------------------------
+2022-09-13 08:18:25 info: All unit tests passed.
+2022-09-13 08:18:28 info: All steps were completed successfully
+2022-09-13 08:18:44 info: ----------------------------------------------
+2022-09-13 08:18:44 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-13 08:18:44 info: ----------------------------------------------
+2022-09-13 08:18:47 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex5-pokerDiceChain.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex5-pokerDiceChain.test.js
+  ex5-pokerDiceChain
+    √ should exist and be executable (1 ms)
+    × should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls
+    √ should resolve when all dice settle successfully (43 ms)
+    √ should reject with an Error when a die rolls off the table (110 ms)
+
+  ● ex5-pokerDiceChain › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        0.71 s
+Ran all test suites matching /ex5-pokerDiceChain.test.js/i.
+2022-09-13 08:19:15 info: ----------------------------------------------
+2022-09-13 08:19:15 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-09-13 08:19:15 info: ----------------------------------------------
+2022-09-13 08:19:17 info: All unit tests passed.
+2022-09-13 08:19:20 info: All steps were completed successfully
+2022-09-13 08:29:34 info: --------------------------------------------
+2022-09-13 08:29:34 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 08:29:34 info: --------------------------------------------
+2022-09-13 08:29:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:36
+    return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5)).then(() => dice.map(val => val));
+                   ^
+
+TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.all (<anonymous>)
+    at C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:36:20
+    at new Promise (<anonymous>)
+    at rollDice (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:34:10)
+    at Object.<anonymous> (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\unit-tests\ex4-pokerDiceAll.test.js:53:21)
+    at Promise.then.completed (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:390:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:315:10)
+    at _callCircusTest (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-13 08:29:39 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 09:40:31 info: --------------------------------------------
+2022-09-13 09:40:31 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 09:40:31 info: --------------------------------------------
+2022-09-13 09:40:34 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    √ `rollDice` should not contain unneeded console.log calls (1 ms)
+    √ should use `dice.map()`
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully
+    √ should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      34 |   // resolve(`${results}`);
+      35 |   //onsole.log(`${results}`);
+    > 36 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      37 |     .then(() => {
+      38 |       return dice.map((val) => val);
+      39 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:36:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.891 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 09:40:35 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error    'resolveConfig' is assigned a value but never used  no-unused-vars
+  33:3  warning  Remove commented-out code                           hyf/no-commented-out-code
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2022-09-13 09:40:37 error: *** Spell Checker Report ***
+
+ex4-pokerDiceAll.js:35:5 - Unknown word (onsole)
+
+2022-09-13 09:41:38 info: --------------------------------------------
+2022-09-13 09:41:38 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 09:41:38 info: --------------------------------------------
+2022-09-13 09:41:40 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls
+    √ should use `dice.map()` (1 ms)
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (1 ms)
+    √ should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      34 |   // resolve(`${results}`);
+      35 |   //onsole.log(`${results}`);
+    > 36 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      37 |     .then(() => {
+      38 |       return dice.map((val) => val);
+      39 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:36:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.74 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 09:41:41 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error    'resolveConfig' is assigned a value but never used  no-unused-vars
+  33:3  warning  Remove commented-out code                           hyf/no-commented-out-code
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2022-09-13 09:41:42 error: *** Spell Checker Report ***
+
+ex4-pokerDiceAll.js:35:5 - Unknown word (onsole)
+
+2022-09-13 09:42:08 info: --------------------------------------------
+2022-09-13 09:42:08 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 09:42:08 info: --------------------------------------------
+2022-09-13 09:42:10 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls
+    √ should use `dice.map()` (1 ms)
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (1 ms)
+    √ should reject with an Error when a die rolls off the table
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      32 |   const results = [];
+      33 |
+    > 34 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      35 |     .then(() => {
+      36 |       return dice.map((val) => val);
+      37 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:34:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.803 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 09:42:11 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 09:43:12 info: --------------------------------------------
+2022-09-13 09:43:12 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 09:43:12 info: --------------------------------------------
+2022-09-13 09:43:14 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    √ `rollDice` should not contain unneeded console.log calls (1 ms)
+    √ should use `dice.map()`
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (1 ms)
+    √ should reject with an Error when a die rolls off the table (1 ms)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      32 |   const results = [];
+      33 |
+    > 34 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      35 |     .then(() => {
+      36 |       return dice.map((val) => val);
+      37 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:34:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.742 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 09:43:15 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 09:53:40 info: --------------------------------------------
+2022-09-13 09:53:40 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 09:53:40 info: --------------------------------------------
+2022-09-13 09:53:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:34
+  Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5)).then(() => {
+          ^
+
+TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.all (<anonymous>)
+    at rollDice (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:34:11)
+    at Object.<anonymous> (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\unit-tests\ex4-pokerDiceAll.test.js:53:21)
+    at Promise.then.completed (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:390:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:315:10)
+    at _callCircusTest (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:66:9)
+2022-09-13 09:53:43 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 10:41:47 info: --------------------------------------------
+2022-09-13 10:41:47 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 10:41:47 info: --------------------------------------------
+2022-09-13 10:41:49 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:35
+  Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5)).then(() => {
+          ^
+
+TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.all (<anonymous>)
+    at rollDice (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\homework\ex4-pokerDiceAll.js:35:11)
+    at Object.<anonymous> (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week1\unit-tests\ex4-pokerDiceAll.test.js:53:21)
+    at Promise.then.completed (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:390:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\utils.js:315:10)
+    at _callCircusTest (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\gokal\Desktop\Homework-class39\node_modules\jest-circus\build\run.js:66:9)
+2022-09-13 10:41:51 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 10:42:36 info: --------------------------------------------
+2022-09-13 10:42:36 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 10:42:36 info: --------------------------------------------
+2022-09-13 10:42:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    × `rollDice` should not contain unneeded console.log calls (2 ms)
+    √ should use `dice.map()`
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (1 ms)
+    √ should reject with an Error when a die rolls off the table (1 ms)
+
+  ● ex4-pokerDiceAll › `rollDice` should not contain unneeded console.log calls
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      137 |       });
+      138 |
+    > 139 |     expect(callsConsoleLog).toBe(false);
+          |                             ^
+      140 |   });
+      141 | }
+      142 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:139:29)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      32 |   const results = [];
+      33 |
+    > 34 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      35 |     .then(() => {
+      36 |       return dice.map((value) => value);
+      37 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:34:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 5 passed, 7 total
+Snapshots:   0 total
+Time:        0.898 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 10:42:40 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-13 10:44:10 info: --------------------------------------------
+2022-09-13 10:44:10 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-13 10:44:10 info: --------------------------------------------
+2022-09-13 10:44:12 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js
+  ex4-pokerDiceAll
+    √ should exist and be executable (1 ms)
+    √ should have all TODO comments removed
+    √ `rollDice` should not contain unneeded console.log calls (1 ms)
+    √ should use `dice.map()`
+    √ should use `Promise.all()`
+    × should resolve when all dice settle successfully (1 ms)
+    √ should reject with an Error when a die rolls off the table (1 ms)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+        at Function.all (<anonymous>)
+
+      32 |   const results = [];
+      33 |
+    > 34 |   return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+         |                  ^
+      35 |     .then(() => {
+      36 |       return dice.map((value) => value);
+      37 |     })
+
+      at rollDice (3-UsingAPIs/Week1/homework/ex4-pokerDiceAll.js:34:18)
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:53:21)
+
+  ● ex4-pokerDiceAll › should resolve when all dice settle successfully
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received two assertion calls.
+
+      46 |
+      47 |   test('should resolve when all dice settle successfully', async () => {
+    > 48 |     expect.assertions(4);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week1/unit-tests/ex4-pokerDiceAll.test.js:48:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.883 s, estimated 1 s
+Ran all test suites matching /ex4-pokerDiceAll.test.js/i.
+C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64
+        reject(new Error(`Die ${die} rolled off the table.\n`));
+               ^
+
+Error: Die 1 rolled off the table.
+
+    at rollOnce (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:64:16)
+    at Timeout._onTimeout (C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\helpers\pokerDiceRoller.js:77:26)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-09-13 10:44:13 error: *** ESLint Report ***
+
+ex4-pokerDiceAll.js
+  27:9  error  'resolveConfig' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+

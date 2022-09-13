@@ -24,12 +24,20 @@ exercise file.
 
 // The line below makes the rollDie() function available to this file.
 // Do not change or remove it.
+const { resolveConfig } = require('prettier');
 const rollDie = require('../../helpers/pokerDiceRoller');
 
 function rollDice() {
-  // TODO Refactor this function
   const dice = [1, 2, 3, 4, 5];
-  return rollDie(1);
+  const results = [];
+
+  return Promise.all(rollDie(1), rollDie(2), rollDie(3), rollDie(4), rollDie(5))
+    .then(() => {
+      return dice.map((value) => value);
+    })
+    .then((val) => {
+      results.push(val);
+    });
 }
 
 function main() {
