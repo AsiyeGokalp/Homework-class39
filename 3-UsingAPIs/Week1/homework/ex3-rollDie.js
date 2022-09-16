@@ -38,8 +38,8 @@ function rollDie() {
 
 function main() {
   rollDie()
-    .catch((error) => console.log(error.message))
-    .then((value) => console.log(`Success! Die settled on ${value}.`));
+    .then((value) => console.log(`Success! Die settled on ${value}.`))
+    .catch((error) => console.log(error.message));
 }
 
 if (process.env.NODE_ENV !== 'test') {
@@ -47,7 +47,3 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 module.exports = rollDie;
-
-// If a die rolls more than six times in the game it rolls off the table and the throw becomes invalid.
-// But if the roll number is more than 6 it gives 'success' messages. After adding the promise and removing
-// the callback function, Problem still exists.
