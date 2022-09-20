@@ -1,0 +1,625 @@
+2022-09-19 11:57:31 info: ---------------------------------------------
+2022-09-19 11:57:31 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2022-09-19 11:57:31 info: ---------------------------------------------
+2022-09-19 11:57:36 info: All unit tests passed.
+2022-09-19 11:57:38 info: All steps were completed successfully
+2022-09-20 06:36:27 info: ------------------------------------------
+2022-09-20 06:36:27 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-20 06:36:27 info: ------------------------------------------
+2022-09-20 06:36:31 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    × HTML should be syntactically valid
+    × should have all TODO comments removed
+    × should use `fetch()`
+    × should use `await fetch()`
+    × should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use `fetch()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use `await fetch()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use try/catch
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        1.665 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-09-20 06:36:33 error: *** Spell Checker Report ***
+
+
+2022-09-20 06:41:17 info: ------------------------------------------
+2022-09-20 06:41:17 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-20 06:41:17 info: ------------------------------------------
+2022-09-20 06:41:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    × HTML should be syntactically valid
+    × should have all TODO comments removed
+    × should use `fetch()`
+    × should use `await fetch()`
+    × should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should have all TODO comments removed
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use `fetch()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use `await fetch()`
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+  ● pokemonApp › should use try/catch
+
+    ENOENT: no such file or directory, open 'C:\Users\gokal\Desktop\Homework-class39\3-UsingAPIs\Week2\run\ex2-pokemonApp\index.html'
+
+
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 5 total
+Snapshots:   0 total
+Time:        1.423 s, estimated 2 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-09-20 06:41:22 error: *** Spell Checker Report ***
+
+
+2022-09-20 08:20:40 info: ------------------------------------------
+2022-09-20 08:20:40 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-20 08:20:40 info: ------------------------------------------
+2022-09-20 08:20:45 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    × HTML should be syntactically valid (90 ms)
+    √ should have all TODO comments removed
+    √ should use `fetch()`
+    √ should use `await fetch()` (1 ms)
+    √ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:2   error  <button> is missing required \"type\" attribute  element-required-attributes
+      12:31  error  <img> is missing required \"src\" attribute      element-required-attributes
+      12:31  error  <img> is missing required \"alt\" attribute      wcag/h37·
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:46:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        3.046 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-09-20 08:20:46 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  45:7  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-09-20 08:24:36 info: ------------------------------------------
+2022-09-20 08:24:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-20 08:24:36 info: ------------------------------------------
+2022-09-20 08:24:41 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    × HTML should be syntactically valid (86 ms)
+    √ should have all TODO comments removed
+    √ should use `fetch()`
+    √ should use `await fetch()`
+    √ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:2   error  <button> is missing required \"type\" attribute  element-required-attributes
+      12:31  error  <img> is missing required \"src\" attribute      element-required-attributes
+      12:31  error  <img> is missing required \"alt\" attribute      wcag/h37·
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:46:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        2.542 s, estimated 3 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-09-20 08:24:42 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  45:7  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-09-20 08:25:50 info: ------------------------------------------
+2022-09-20 08:25:50 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-20 08:25:50 info: ------------------------------------------
+2022-09-20 08:25:54 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    × HTML should be syntactically valid (84 ms)
+    √ should have all TODO comments removed
+    √ should use `fetch()`
+    √ should use `await fetch()`
+    √ should use try/catch (1 ms)
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:2   error  <button> is missing required \"type\" attribute  element-required-attributes
+      12:31  error  <img> is missing required \"src\" attribute      element-required-attributes
+      12:31  error  <img> is missing required \"alt\" attribute      wcag/h37·
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:46:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        2.636 s, estimated 3 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-09-20 09:02:34 info: ----------------------------------------
+2022-09-20 09:02:34 info: >>> Running Unit Test `ex4-diceRace` <<<
+2022-09-20 09:02:34 info: ----------------------------------------
+2022-09-20 09:02:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-diceRace.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js
+  ex4-diceRace
+    × should exist and be executable (2 ms)
+    √ should have all TODO comments removed
+    √ `rollDice` should not contain unneeded console.log calls
+    × should use `dice.map()`
+    × should use `Promise.race()` (1 ms)
+    × should resolve as soon as a die settles successfully
+    × should reject with an Error as soon as a die rolls off the table
+
+  ● ex4-diceRace › should exist and be executable
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      30 |
+      31 |   test('should exist and be executable', () => {
+    > 32 |     expect(exported).toBeDefined();
+         |                      ^
+      33 |   });
+      34 |
+      35 |   testTodosRemoved(() => source);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:32:22)
+
+  ● ex4-diceRace › should use `dice.map()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      38 |
+      39 |   test('should use `dice.map()`', () => {
+    > 40 |     expect(state.diceMap).toBeDefined();
+         |                           ^
+      41 |   });
+      42 |
+      43 |   test('should use `Promise.race()`', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:40:27)
+
+  ● ex4-diceRace › should use `Promise.race()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 |
+      43 |   test('should use `Promise.race()`', () => {
+    > 44 |     expect(state.promiseAll).toBeDefined();
+         |                              ^
+      45 |   });
+      46 |
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:44:30)
+
+  ● ex4-diceRace › should resolve as soon as a die settles successfully
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+      48 |     expect.assertions(3);
+    > 49 |     expect(exported).toBeDefined();
+         |                      ^
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+      52 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:49:22)
+
+  ● ex4-diceRace › should resolve as soon as a die settles successfully
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received one assertion call.
+
+      46 |
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+    > 48 |     expect.assertions(3);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:48:12)
+
+  ● ex4-diceRace › should reject with an Error as soon as a die rolls off the table
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      63 |   test('should reject with an Error as soon as a die rolls off the table', async () => {
+      64 |     expect.assertions(3);
+    > 65 |     expect(exported).toBeDefined();
+         |                      ^
+      66 |
+      67 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:65:22)
+
+  ● ex4-diceRace › should reject with an Error as soon as a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received one assertion call.
+
+      62 |
+      63 |   test('should reject with an Error as soon as a die rolls off the table', async () => {
+    > 64 |     expect.assertions(3);
+         |            ^
+      65 |     expect(exported).toBeDefined();
+      66 |
+      67 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:64:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 2 passed, 7 total
+Snapshots:   0 total
+Time:        0.579 s
+Ran all test suites matching /ex4-diceRace.test.js/i.
+2022-09-20 09:02:38 error: *** ESLint Report ***
+
+ex4-diceRace.js
+  40:1  error  Parsing error: Unexpected token
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-20 09:09:38 info: ----------------------------------------
+2022-09-20 09:09:38 info: >>> Running Unit Test `ex4-diceRace` <<<
+2022-09-20 09:09:38 info: ----------------------------------------
+2022-09-20 09:09:40 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-diceRace.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js
+  ex4-diceRace
+    × should exist and be executable (3 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ `rollDice` should not contain unneeded console.log calls (1 ms)
+    × should use `dice.map()` (1 ms)
+    × should use `Promise.race()`
+    × should resolve as soon as a die settles successfully (1 ms)
+    × should reject with an Error as soon as a die rolls off the table (1 ms)
+
+  ● ex4-diceRace › should exist and be executable
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      30 |
+      31 |   test('should exist and be executable', () => {
+    > 32 |     expect(exported).toBeDefined();
+         |                      ^
+      33 |   });
+      34 |
+      35 |   testTodosRemoved(() => source);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:32:22)
+
+  ● ex4-diceRace › should use `dice.map()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      38 |
+      39 |   test('should use `dice.map()`', () => {
+    > 40 |     expect(state.diceMap).toBeDefined();
+         |                           ^
+      41 |   });
+      42 |
+      43 |   test('should use `Promise.race()`', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:40:27)
+
+  ● ex4-diceRace › should use `Promise.race()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 |
+      43 |   test('should use `Promise.race()`', () => {
+    > 44 |     expect(state.promiseAll).toBeDefined();
+         |                              ^
+      45 |   });
+      46 |
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:44:30)
+
+  ● ex4-diceRace › should resolve as soon as a die settles successfully
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+      48 |     expect.assertions(3);
+    > 49 |     expect(exported).toBeDefined();
+         |                      ^
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+      52 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:49:22)
+
+  ● ex4-diceRace › should resolve as soon as a die settles successfully
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received one assertion call.
+
+      46 |
+      47 |   test('should resolve as soon as a die settles successfully', async () => {
+    > 48 |     expect.assertions(3);
+         |            ^
+      49 |     expect(exported).toBeDefined();
+      50 |
+      51 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:48:12)
+
+  ● ex4-diceRace › should reject with an Error as soon as a die rolls off the table
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      63 |   test('should reject with an Error as soon as a die rolls off the table', async () => {
+      64 |     expect.assertions(3);
+    > 65 |     expect(exported).toBeDefined();
+         |                      ^
+      66 |
+      67 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:65:22)
+
+  ● ex4-diceRace › should reject with an Error as soon as a die rolls off the table
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received one assertion call.
+
+      62 |
+      63 |   test('should reject with an Error as soon as a die rolls off the table', async () => {
+    > 64 |     expect.assertions(3);
+         |            ^
+      65 |     expect(exported).toBeDefined();
+      66 |
+      67 |     const randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.999);
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex4-diceRace.test.js:64:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 2 passed, 7 total
+Snapshots:   0 total
+Time:        0.726 s, estimated 1 s
+Ran all test suites matching /ex4-diceRace.test.js/i.
+2022-09-20 09:09:42 error: *** ESLint Report ***
+
+ex4-diceRace.js
+  40:1  error  Parsing error: Unexpected token
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-09-20 09:10:28 info: ----------------------------------------
+2022-09-20 09:10:28 info: >>> Running Unit Test `ex4-diceRace` <<<
+2022-09-20 09:10:28 info: ----------------------------------------
+2022-09-20 09:10:30 info: All unit tests passed.
+2022-09-20 09:10:33 info: All steps were completed successfully
+2022-09-20 11:21:33 info: ----------------------------------------
+2022-09-20 11:21:33 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2022-09-20 11:21:33 info: ----------------------------------------
+2022-09-20 11:21:33 warn: A unit test file was not provided.
+2022-09-20 11:21:36 info: All steps were completed successfully
+2022-09-21 01:01:55 info: -----------------------------------------
+2022-09-21 01:01:55 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2022-09-21 01:01:55 info: -----------------------------------------
+2022-09-21 01:01:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (1 ms)
+    √ `rollDieUntil` should not contain unneeded console.log calls
+    √ should not include a recursive call
+    √ should use async/wait (1 ms)
+    √ should use try/catch (2 ms)
+    √ should resolve as soon as a die settles on an ACE (79 ms)
+    √ should reject with an Error when a die rolls off the table (114 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      103 | function testTodosRemoved(getSource) {
+      104 |   test('should have all TODO comments removed', () => {
+    > 105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+          |                                          ^
+      106 |   });
+      107 | }
+      108 |
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:105:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.706 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+2022-09-21 01:02:34 info: -----------------------------------------
+2022-09-21 01:02:34 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2022-09-21 01:02:34 info: -----------------------------------------
+2022-09-21 01:02:37 info: All unit tests passed.
+2022-09-21 01:02:40 info: All steps were completed successfully
+2022-09-21 01:03:25 info: --------------------------------------------
+2022-09-21 01:03:25 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2022-09-21 01:03:25 info: --------------------------------------------
+2022-09-21 01:03:25 warn: A unit test file was not provided.
+2022-09-21 01:03:28 info: All steps were completed successfully

@@ -1,1 +1,10 @@
 /* add your styling here */
+select {
+  display: block;
+  margin: 1rem 0;
+}
+img {
+  display: block;
+  position: absolute;
+  top: 100px;
+}
