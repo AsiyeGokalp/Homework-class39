@@ -50,11 +50,13 @@ async function fetchAndPopulatePokemons(url, select) {
   }
 }
 
-async function fetchImage(url, img) {
+async function fetchImage(url, span) {
   try {
-    const response = await fetch(url);
-    const data = await response.blob();
-    img.src = URL.createObjectURL(data);
+    const data = await fetchData(url);
+    const dataResults = data.results;
+    dataResults.forEach((dataResult) => {
+      span.innerHTML = `<img src =${dataResult.url}></img>`;
+    });
   } catch (err) {
     console.log(err);
   }
@@ -64,16 +66,16 @@ function main() {
   const URL = 'https://pokeapi.co/api/v2/pokemon?limit=151';
 
   const button = document.createElement('button');
-  const img = document.createElement('img');
+  const span = document.createElement('span');
   const select = document.createElement('select');
 
   button.textContent = 'Get pokemon!';
   button.getAttribute('type', 'submit');
-  img.getAttribute('src', '');
-  img.getAttribute('alt', 'pokemon');
+  span.getAttribute('src', '');
+  span.getAttribute('alt', 'pokemon');
 
   document.body.appendChild(button);
-  document.body.appendChild(img);
+  document.body.appendChild(span);
   document.body.appendChild(select);
 
   button.addEventListener('click', () => {
@@ -81,7 +83,7 @@ function main() {
   });
 
   select.addEventListener('change', () => {
-    fetchImage(URL, img);
+    fetchImage(URL, span);
   });
 }
 
