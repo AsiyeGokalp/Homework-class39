@@ -75,10 +75,7 @@ function main() {
   span.getAttribute('src', '');
   span.getAttribute('alt', 'pokemon');
 
-  document.body.appendChild(button);
-  document.body.appendChild(span);
-  document.body.appendChild(select);
-
+ 
   button.addEventListener('click', () => {
     fetchAndPopulatePokemons(URL, select);
   });
@@ -87,6 +84,10 @@ function main() {
     const url=e.target.value
     fetchImage(url, span);
   });
+   document.body.appendChild(button);
+  document.body.appendChild(span);
+  document.body.appendChild(select);
+
 }
 
 window.addEventListener('load', main);
