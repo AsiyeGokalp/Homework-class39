@@ -40,11 +40,12 @@ async function fetchData(url) {
 async function fetchAndPopulatePokemons(url, select) {
   try {
     const data = await fetchData(url);
-    for (const name of data['results']) {
+   data.results.forEach((element) => {
       const option = document.createElement('option');
-      option.textContent = name.name;
+      option.value = element.url;
+      option.textContent = element.name;
       select.appendChild(option);
-    }
+    });
   } catch (err) {
     console.log('Error:' + err);
   }
@@ -52,11 +53,11 @@ async function fetchAndPopulatePokemons(url, select) {
 
 async function fetchImage(url, span) {
   try {
+    span.innerHTML ="";
     const data = await fetchData(url);
-    const dataResults = data.results;
-    dataResults.forEach((dataResult) => {
-      span.innerHTML = `<img src =${dataResult.url}></img>`;
-    });
+   const img = document.createElement('img');
+    img.setAttribute('src', data.sprites.front_default);
+    span.appendChild(img)
   } catch (err) {
     console.log(err);
   }
@@ -82,8 +83,9 @@ function main() {
     fetchAndPopulatePokemons(URL, select);
   });
 
-  select.addEventListener('change', () => {
-    fetchImage(URL, span);
+  select.addEventListener('change', (e) => {
+    const url=e.target.value
+    fetchImage(url, span);
   });
 }
 
